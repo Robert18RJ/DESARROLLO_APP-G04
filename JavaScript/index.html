@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencias de Práctica de JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Experiencias de Práctica de JavaScript</h1>
+    </header>
+
+    <!-- Experiencia de Práctica N° 01: Formas de Declarar Código JavaScript -->
+    <section>
+        <h2>Experiencia de Práctica N° 01: Formas de Declarar Código JavaScript</h2>
+        <!-- Agrega un botón con el ID "miBoton" -->
+        <button id="miBoton">Haz clic aquí</button>
+    </section>
+
+    <!-- Experiencia de Práctica N° 02: Uso de Recursos del Lenguaje -->
+    <section>
+        <h2>Experiencia de Práctica N° 02: Uso de Recursos del Lenguaje</h2>
+        <!-- Agrega un elemento con el ID "mensaje" para mostrar mensajes -->
+        <p id="mensaje">Mensaje de JavaScript</p>
+        <!-- Agrega un elemento con el ID "saludo" para mostrar el saludo -->
+        <p id="saludo">Saludo de JavaScript</p>
+    </section>
+
+    <!-- Experiencia de Práctica N° 03: Uso de Funciones -->
+    <section>
+        <h2>Experiencia de Práctica N° 03: Uso de Funciones</h2>
+        <!-- Agrega un elemento con el ID "resultado" para mostrar el resultado del cálculo -->
+        <p id="resultado">Resultado del cálculo</p>
+    </section>
+
+    <!-- Experiencia de Práctica N° 04: Uso de Objetos -->
+    <section>
+        <h2>Experiencia de Práctica N° 04: Uso de Objetos</h2>
+        <!-- Agrega elementos con los IDs "infoPersona", "infoMascota" e "infoCoche" para mostrar la información -->
+        <p id="infoPersona">Información de persona</p>
+        <p id="infoMascota">Información de mascota</p>
+        <p id="infoCoche">Información de coche</p>
+    </section>
+    
+    <!-- Experiencia de Práctica N° 05: Creación y Manipulación de Arrays -->
+    <section>
+        <h2>Experiencia de Práctica N° 05: Creación y Manipulación de Arrays</h2>
+        <!-- Formulario para ingresar datos a los arrays -->
+        <form id="arrayForm">
+            <label for="numero">Ingresar número:</label>
+            <input type="number" id="numero" required>
+            <button type="button" onclick="agregarNumero()">Agregar Número</button>
+
+            <br>
+
+            <label for="texto">Ingresar texto:</label>
+            <input type="text" id="texto" required>
+            <button type="button" onclick="agregarTexto()">Agregar Texto</button>
+
+            <br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+            <button type="button" onclick="agregarObjeto()">Agregar Objeto</button>
+
+            <br>
+
+            <button type="button" onclick="guardarArrays()">Guardar Arrays</button>
+            <button type="button" onclick="eliminarArrays()">Eliminar Arrays</button>
+        </form>
+
+        <!-- Elementos para mostrar los arrays -->
+        <p id="arrayNumerico"></p>
+        <p id="arrayStrings"></p>
+        <p id="arrayObjetos"></p>
+    </section>
+
+    <!-- Experiencia de Práctica N° 06: Uso de Objetos Globales -->
+    <section>
+        <h2>Experiencia de Práctica N° 06: Uso de Objetos Globales</h2>
+        <!-- Agregar un botón para mostrar una alerta personalizada -->
+        <button onclick="mostrarAlertaPersonalizada()">Mostrar Alerta Personalizada</button>
+        <!-- Agregar un botón para mostrar la fecha y hora actual -->
+        <button onclick="mostrarFechaYHoraActual()">Mostrar Fecha y Hora Actual</button>
+        <!-- Agregar un botón para reiniciar la página -->
+        <button onclick="reiniciarPagina()">Reiniciar Página</button>
+        <!-- Agregar un botón para redirigir a una página externa -->
+        <button onclick="redirigirPagina()">Redirigir a Página Externa</button>
+        <!-- Agregar un elemento con el ID "fechaHoraActual" para mostrar la fecha y hora -->
+        <p id="fechaHoraActual">Fecha y Hora Actual: </p>
+    </section>
+
+    <!-- Otros contenidos y experiencias aquí -->
+
+    <!-- Agregar el archivo JavaScript de la Experiencia 1 -->
+    <script src="experiencia1.js"></script> 
+    <!-- Agregar el archivo JavaScript de la Experiencia 2 -->
+    <script src="experiencia2.js"></script>
+    <!-- Agregar el archivo JavaScript de la Experiencia 3 -->
+    <script src="experiencia3.js"></script>
+    <!-- Agregar el archivo JavaScript de la Experiencia 4 -->
+    <script src="experiencia4.js"></script>
+    <!-- Agregar el archivo JavaScript de la Experiencia 5 -->
+    <script src="experiencia5.js"></script>  
+    <!-- Agregar el archivo JavaScript de la Experiencia 6 -->
+    <script src="experiencia6.js"></script>
+</body>
+</html>
